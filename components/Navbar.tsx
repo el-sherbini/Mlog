@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 function Navbar() {
   return (
-    <nav className="mx-auto flex max-w-7xl items-center justify-between p-5">
+    <nav className="flex items-center justify-between p-5">
       <div className="flex items-center space-x-5">
         <Link href="/">
           <img
