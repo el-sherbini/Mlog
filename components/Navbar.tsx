@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="flex items-center justify-between p-5">
       <div className="flex items-center space-x-5">
         <Link href="/">
-          <span className="cursor-pointer text-4xl font-bold">Blog</span>
+          <span className="cursor-pointer text-4xl font-bold">Mlog</span>
         </Link>
 
         <div className="hidden items-center space-x-5 md:inline-flex">

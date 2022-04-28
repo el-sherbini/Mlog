@@ -13,7 +13,7 @@ export default function Home({ posts }: Props) {
   return (
     <div className="mx-auto min-h-screen max-w-7xl">
       <Head>
-        <title>Create Next App</title>
+        <title>Mlog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
