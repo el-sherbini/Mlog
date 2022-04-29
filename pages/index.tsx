@@ -14,7 +14,7 @@ export default function Home({ posts }: Props) {
     <div className="mx-auto min-h-screen max-w-7xl">
       <Head>
         <title>Mlog</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.ico" />
       </Head>
 
       <Navbar />
