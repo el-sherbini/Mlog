@@ -1,23 +1,64 @@
-# Next.js + Tailwind CSS Example
+# Headphones Store
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+> Blog application to add articles, built with Next.js, TypeScript, Tailwind CSS and Sanity CMS.
+>  Live demo [_here_](https://bre.is/KHWQAqQ9).
 
-## Deploy your own
+## Installation and Setup Instructions
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+### Installation:
 
-## How to use
+Clone the repo:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
+```sh
+git clone https://github.com/el-sherbini/Mlog.git
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Run terminal command:
+
+```sh
+npm install
+```
+
+```sh
+cd sanityblog
+npm install
+```
+
+### Enter your Environment Variables in `.env` file, you can get them from [_here_](https://www.sanity.io/).
+
+```sh
+NEXT_PUBLIC_SANITY_PROJECT_ID = 'ENTER YOUR SANITY PROJECT ID'
+NEXT_PUBLIC_SANITY_DATASET_NAME = 'ENTER YOUR SANITY DATASET NAME'
+```
+
+### To Start Server:
+
+```sh
+npm run dev
+```
+
+### To Visit App:
+
+```sh
+localhost:3000
+```
+
+## Technologies Used
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Sanity CMS
+- React-hook-form
+- React-portable-text
+
+## Features
+
+- Responsive layout
+- Add article from Sanity CMS
+- Arricles listing
+- Single article page
+- Add/Read comments
+- Accept/Reject comment from Sanity CMS
