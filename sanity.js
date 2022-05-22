@@ -2,7 +2,7 @@ import { createCurrentUserHook, createClient } from 'next-sanity'
 import createImageUrlBuilder from '@sanity/image-url'
 
 export const config = {
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET_NAME,
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
   apiVersion: '2022-04-01',
 
