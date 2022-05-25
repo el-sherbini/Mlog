@@ -1,7 +1,7 @@
-# Headphones Store
+# Mlog
 
-> Blog application to add articles, built with Next.js, TypeScript, Tailwind CSS and Sanity CMS.
->  Live demo [_here_](https://bre.is/KHWQAqQ9).
+> Mlog is a blog application to add articles, built with Next.js, TypeScript, Tailwind CSS and Sanity CMS.
+> Live demo [_here_](https://bre.is/KHWQAqQ9).
 
 ## Installation and Setup Instructions
 
